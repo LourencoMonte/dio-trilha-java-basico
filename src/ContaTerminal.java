@@ -18,7 +18,7 @@ public class ContaTerminal {
         sc.nextLine(); 
 
         System.out.printf("Olá %s!. Bem-vindo ao banco Master! Sua agencia é %s e sua conta %s. ", nome, agencia, conta);
-        System.out.printf("Seu saldo inicial é: R$ %.2f. ", saldo);
+        System.out.printf("Seu saldo inicial é: R$ %.2f e já está disponível para saque. ", saldo);
 
         sc.close();
     }
